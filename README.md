@@ -2,11 +2,11 @@
 
 ## Overview
 This project was developed as a part of the interview process.
-![image](https://github.com/stefankrstevski/OnlineCoursesWebApi/assets/165183191/afec743c-b286-47da-a22a-3ca441fd3ad2)
+![image](https://github.com/stefankrstevski/OnlineCoursesWebApi/assets/165183191/60e669f3-4b5b-4ca7-82c1-3340b10e358d)
 
 ## Key Features
 - **EF Core**: Leveraged Entity Framework Core for data access.
-- **Database Diagram**: The structure of the database is illustrated in the image above.
+- **Database Diagram**: The structure of the database is illustrated [here](https://github.com/stefankrstevski/OnlineCoursesWebApi/assets/165183191/60e669f3-4b5b-4ca7-82c1-3340b10e358d).
 - **Authentication Service**: Implemented a service to obtain an auth token necessary for accessing courses from an external endpoint.
 - **Optimized Token Fetching**: To minimize the frequency of token requests, I utilized a memory cache to store the auth token, refreshing it only when nearing its expiration (20 minutes).
 - **Background Service for Course Fetching**: A background service runs daily to fetch course data, ensuring up-to-date information.
