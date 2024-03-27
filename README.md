@@ -2,7 +2,6 @@
 
 ## Overview
 This project was developed as a part of the interview process.
-![image](https://github.com/stefankrstevski/OnlineCoursesWebApi/assets/165183191/60e669f3-4b5b-4ca7-82c1-3340b10e358d)
 
 ## Key Features
 - **EF Core**: Leveraged Entity Framework Core for data access.
